@@ -1,0 +1,302 @@
+System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   at System.Net.Http.HttpConnection.SendRequestContentAsync(HttpRequestMessage request, HttpContentWriteStream stream, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   at System.Net.Http.HttpConnection.SendRequestContentAsync(HttpRequestMessage request, HttpContentWriteStream stream, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   at System.Net.Http.HttpConnection.SendRequestContentAsync(HttpRequestMessage request, HttpContentWriteStream stream, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   at System.Net.Http.HttpConnection.SendRequestContentAsync(HttpRequestMessage request, HttpContentWriteStream stream, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   at System.Net.Http.HttpConnection.SendRequestContentAsync(HttpRequestMessage request, HttpContentWriteStream stream, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   at System.Net.Http.HttpConnection.SendRequestContentAsync(HttpRequestMessage request, HttpContentWriteStream stream, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   at System.Net.Http.HttpConnection.SendRequestContentAsync(HttpRequestMessage request, HttpContentWriteStream stream, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Net.Http.HttpRequestException: Error while copying content to a stream.
+ ---> System.IO.IOException: Unable to write data to the transport connection: 連線已被您主機上的軟體中止。.
+ ---> System.Net.Sockets.SocketException (10053): 連線已被您主機上的軟體中止。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|157_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.<CopyToAsync>g__WaitAsync|56_0(ValueTask copyTask)
+   at System.Net.Http.HttpConnection.SendRequestContentAsync(HttpRequestMessage request, HttpContentWriteStream stream, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+System.OperationCanceledException: The operation was canceled.
+   at Hangfire.Server.RecurringJobScheduler.Execute(BackgroundProcessContext context)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.OperationCanceledException: The operation was canceled.
+   at Hangfire.Server.ServerJobCancellationWatcher.Execute(BackgroundProcessContext context)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.OperationCanceledException: The operation was canceled.
+   at Hangfire.Common.CancellationTokenExtentions.WaitOrThrow(CancellationToken cancellationToken, TimeSpan timeout)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.OperationCanceledException: The operation was canceled.
+   at Hangfire.Server.RecurringJobScheduler.Execute(BackgroundProcessContext context)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.OperationCanceledException: The operation was canceled.
+   at Hangfire.Server.RecurringJobScheduler.Execute(BackgroundProcessContext context)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.OperationCanceledException: The operation was canceled.
+   at Hangfire.Common.CancellationTokenExtentions.WaitOrThrow(CancellationToken cancellationToken, TimeSpan timeout)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+System.IO.IOException: The process cannot access the file 'C:\Users\user\Documents\GitHub\aps-hubs-bulk-files-manager\Bulk-Uploader-FrontEnd\exceptions.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
